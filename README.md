@@ -7,6 +7,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
+node api 打开api服务
 npm run serve
 ```
 
