@@ -10,6 +10,10 @@ import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
+  async mounted() {
+    const realtionsData = await fetch('api/getRelations');
+    console.log(realtionsData);    
+  },
   components: {
     HelloWorld
   }
